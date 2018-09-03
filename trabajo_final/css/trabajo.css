@@ -1,0 +1,42 @@
+header{
+    background-color: aquamarine;
+    height: 95px;
+}
+
+nav{
+    background-color: burlywood;
+    height: 80px;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+    background: blueviolet;
+}
+
+#art1{
+    background-color: brown;
+    height: 500px;
+    width: 35%;
+    float: left;
+}
+
+#art2{
+    background-color: aqua;
+    height: 500px;
+    width: 35%;
+    float: left;
+}
+
+aside{
+    background-color: rgb(87, 87, 11);
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+
+footer{
+    background-color: coral;
+    height: 90px;
+    
+}
