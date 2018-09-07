@@ -1,42 +1,76 @@
-header{
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
     background-color: aquamarine;
+}
+
+header{
     height: 95px;
 }
 
+#caja1{
+    width: 50%;
+    float: left;
+}
+
+
+#caja2{
+    width: 50%;
+    margin-right: 40px;
+}
+
+#mn{
+    width: 30%;
+    margin-right: 60%;
+}
+
+#img{
+    margin-left: 50%;
+    
+    width: 30%;
+    height: 70px;
+}
+
 nav{
-    background-color: burlywood;
+    background-color: aqua;
     height: 80px;
     text-align: center;
 }
 
 #menu li{
     display: inline-block;
-    background: blueviolet;
+    list-style: none;
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    
 }
 
-#art1{
-    background-color: brown;
-    height: 500px;
-    width: 35%;
-    float: left;
+#menu li:hover{
+    background-color: bisque;
 }
 
-#art2{
-    background-color: aqua;
-    height: 500px;
-    width: 35%;
+section{
+    width: 65%;
     float: left;
+    height: 300px;
+    margin-right: 2%;
+    margin-left: 0.5%;
 }
 
 aside{
-    background-color: rgb(87, 87, 11);
     height: 300px;
     width: 30%;
     float: left;
+    margin-left: 2%;
 }
 
 footer{
-    background-color: coral;
     height: 90px;
-    
+    width: 100%;
+    float: left;
 }
